@@ -5,19 +5,14 @@
     </head>
     <body>
         <div class="topnav" style="text-align: right;">
-            <a class="btn" href="index.html">Home</a>
+            <a class="btn" href="home.html">Home</a>
             <a class="btn" href="chart2.html">Next Chart</a>
         </div>
-        <h1 style="text-align: center;">This is the gender distribution pie chart</h1>
-        <div id="my-pie-chart"></div>
-        <div id="legend">
-            <div class="entry">
-              <div id="color-red" class="entry-color"></div>
-              <div class="entry-text">Female</div>
-            </div>
-            <div class="entry">
-              <div id="color-blue" class="entry-color"></div>
-              <div class="entry-text">Male</div>
+        <h1 style="text-align: center;">This is the gender distribution bar chart</h1>
+        <div class="chart-wrap vertical">
+            <div class="grid">
+              <div class="bar" style="--bar-value:64%" date-name ="male"></div>
+              <div class="bar" style="--bar-value:36%" date-name ="female"></div>
             </div>
         </div>
     </body>
