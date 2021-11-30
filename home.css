@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    padding:1%;
+    text-align: center;
+    background-color: #222222;
+    color:white;
+}
+
+
+img{
+    width: 100%;
+    filter:brightness(50%)
+}
+
+.textal{
+    position:relative;
+    font-size:20px;
+}
+
+.text1{
+    position:absolute;
+    top:30%;
+    left: 20%;
+    background-color: transparent;
+    color:white;
+}
+
+button{
+    color: white;
+    background-color: #727272;
+    padding: 3%;
+    margin:10px;
+    border-radius: 3%;
+    cursor: pointer;
+}
